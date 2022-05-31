@@ -1,0 +1,403 @@
+/* Reset style */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+nav {
+    background: black;
+    padding: 1% 0px;
+}
+
+/* global Style */
+
+.container{
+    width: 85%;
+    margin: auto;
+    /* min-height: 30px; */
+}
+
+.container2{
+    width: 47%;
+    /* margin: 0% 5%; */
+    /* padding-top: 2%; */
+    padding: 2% 0%;
+    display: inline-block;
+}
+.container3{
+    width: 30%;
+    margin: 5% 10%;
+    display: inline-block;
+    background-color: white;
+}
+
+.hrWhite{
+    width: 10%;
+    height: 3px;
+    background-color:white;
+    margin: 5% 0%;
+    border: none;
+
+}
+.hrorange{
+    width: 10%;
+    height: 3px;
+    background-color: orange;
+    margin: 5% 0%;
+    border: none;
+
+}
+.gray-bg{
+    background-color: whitesmoke;
+}
+
+
+/* Custom Style */
+
+/* Navigation bar styling */
+nav h1 {
+    display: inline-block;
+}
+nav ul {
+    float: right;
+    padding-top: 4px;
+    width: 40%;
+}
+nav ul li {
+    display: inline-block;
+    margin-left: 7%;
+}
+nav a {
+    color: azure;
+}
+.icons-container{
+    float: right;
+    padding: 2%;
+    width: 40%;
+    /* display: inline-block; */
+}
+.icons{
+    color: gray;
+    font-size: 38px;
+    display: inline-block;
+    margin-left: 7%;
+}
+.orangeText{
+    color: orangered;
+}
+/* Backgroung image styling */
+#bg-img{
+    background-image: url(../img/bg_buildings.jpg);
+    background-size: 100% 100% ;
+}
+#bg-img2{
+    background-image: url(../img/3.jfif);
+    background-size: 100% 100%;
+}
+.overlay{
+    background-color: rgb(0 0 0 / 64%);
+    height: 100%;
+    color: white;
+}
+
+.btn-download{
+background-color: transparent;
+color: azure;
+margin: 5% 0%;
+margin-bottom: 10%;
+border: 2px solid azure;
+padding: 10px 30px;
+font-size: 15px;
+}
+
+.LogoText{
+    font-size: 150px;
+    margin-top: 5%;
+    /* font-style: bold; */
+}
+.pText1{
+    font-size:80px;
+    line-height: 0.8;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    font-variant-caps:unicase;
+}
+
+/* form styling */
+.container3 p{
+    color: black;
+    font-size: 21px;
+}
+.container3 form{
+    margin: 7%;
+}
+.customForm-input{
+    display: block;
+    width: 80%;
+    border: none;
+    border-bottom: 2px solid whitesmoke;
+    margin-bottom: 4%;
+    padding: 2%;
+}
+
+#form-header{
+    background-color: whitesmoke;
+    width: 100%;
+    padding: 2% 0%;
+    text-align: center;
+
+}
+/* #get-started{
+    background-color: orange;
+    width: 100%;
+    padding: 2% 0%;
+    text-align: center;
+    margin: auto;
+} */
+.container3 button{
+    background-color: orange;
+    font-size: 17px;
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 2%;
+}
+.tab-btn{
+    border: none;
+    background-color: rgb(58, 56, 56);
+    color: white;
+    font-size: 20px;
+    display: block;
+    padding: 20%;
+    border-radius: 2px;
+}
+#tab2{
+    border-top: 2px solid whitesmoke;
+    border-bottom: 2px solid whitesmoke;
+}
+.tab{
+    box-sizing: border-box;
+    width: 20%;
+    display: inline-block;
+    margin: auto;
+    padding: 70px;
+
+}
+.container-center{
+    display: inline-block;
+    width: 40%;
+}
+.gray-text{
+color: gray;
+}
+.white-text{
+    color: white;
+}
+.container-center h3{
+    /* padding: 10% 0%; */
+    margin: 10% 0%;
+}
+.container-center p{
+    /* padding: 3% 0%; */
+    margin: 3% 0%;
+}
+.container-center button{
+    background-color: orange;
+    color: white;
+    border-radius: 3%;
+    border: none;
+    padding: 2% 3%;
+    margin: 4% 0%;
+}
+.container-right{
+    width: 30%;
+    display: inline-block;
+    margin: 3% 4%;
+}
+.container-right img{
+    width: 90%
+}
+.shadow{
+    box-shadow: 5px;
+}
+.pcontainer{
+    display: inline-block;
+    width: 40%;
+    padding: 4% 10%;
+}
+.pcontainer i{
+    display: inline-block;
+    font-size: 25px;
+    color: orange;
+    /* padding-bottom: 3%; */
+    border: 1px solid orange;
+    border-radius: 50%;
+    padding: 1%;
+}
+.container5{
+    display: inline-block;
+    width: 80%;
+    margin: 4% 1%;
+}
+.middle{
+    text-align: center;
+    margin: 5%;
+}
+.middle hr{
+    width: 5%;
+    height: 3px;
+    background-color: orange;
+    /* margin: 5% 0%; */
+    border: none;
+    margin: auto;
+    /* margin: 3% 0%; */
+    /* padding: 3% 0%; */
+}
+.middle h2{
+    padding-top: 5%;
+}
+.card-center{
+    text-align: center;
+    display: inline-block;
+    width: 30%;
+    margin: 0% 1%;
+    margin-bottom: 10%;
+    
+}
+.centering-cards{
+    margin: auto;
+}
+.centering-cards i{
+    font-size: 20px;
+    color: orange;
+    border-radius: 50%;
+    border: 1px solid orange;
+    padding: 2%;
+    margin: 3%;
+}
+.card{
+    /* display: inline-block;
+    width: 16%;
+    background-color: darkgray;
+    text-align: center; */
+    text-align: center;
+    display: inline-block;
+    width: 30%;
+    margin: 0% 1%;
+    margin-bottom: 10%;
+}
+.card ul{
+    background-color: white;
+}
+.card ul li {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.219);
+    color: rgb(105, 105, 105);
+    /* margin: 2%; */
+    padding: 3%;
+    list-style-type: none;
+}
+.card h3{
+    padding: 2% 0%;
+    color: white;
+}
+.card p{
+    padding: 5% 0%;
+    /* color: white; */
+
+
+}
+.orangehr{
+    background-color: orange;
+    border: none;
+    height: 5px;
+}
+.whitehr{
+    background-color: white;
+    border: none;
+    height: 1px;
+}
+.card-bg{
+    background-color: rgb(54, 54, 54);
+}
+.dollarsign{
+    font-size: 40px;
+    font: bold;
+}
+.fontsize{
+    font-size: 80px;
+}
+.orange-bg{
+    background-color: orange;
+}
+#white{
+    color: white;
+}
+.card-center img{
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+
+}
+.txt-left{
+    text-align: left;
+}
+/* .img-container{
+    width: 30px;
+    height: 30px;
+} */
+.user-name{
+display: inline-block;
+}
+.review{
+    background-color: rgba(218, 218, 218, 0.534);
+    padding: 1%;
+    margin: 1% 0%;
+    border-radius: 1%;
+}
+.contact-form{
+    width: 48%;
+    display: inline-block;
+    /* color: rgb(195, 195, 195);
+    border-bottom: 1px rgb(195, 195, 195); */
+}
+.contact-us{
+    margin: auto;
+}
+.form-btn{
+    display: block;
+    background-color: orange;
+    color: white;
+    border-radius: 3%;
+    border: none;
+    padding: 1% 2%;
+    margin: auto;
+}
+.bg-black{
+    background: black;
+    padding: 2% 0px;
+}
+.white-icon{
+    color: white;
+    font-size: 38px;
+    display: inline-block;
+    /* margin-left: 7%; */
+    margin: auto;
+    padding: 0% 3%;
+}
+.icons-container2{
+    /* float: right; */
+    /* padding: 2%; */
+    margin: auto;
+    width: 50%;
+    /* display: inline-block; */
+}
+.middle2{
+    text-align: center;
+    margin: 2%;
+}
